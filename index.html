@@ -4,7 +4,7 @@
 <head>
     <title>Блог Гродно s13 - Новости Гродно и важные события города и региона</title>
     <link rel="stylesheet" href="style.css">
-
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -50,17 +50,18 @@
                     <p>За 2021 год на сайте интернет-магазина МТС было оформлено около 200 тысяч заказов. По сравнению с
                         2020 годом количество покупок выросло почти в 3 раза.</p>
                 </li>
-                <li class="#top" onclick="updateView('secondView')">
-                    <span class="img">
-                        <span class="ico"></span>
-                        <span class="nstat">
-                            <span id="secondView" title="Просмотров">0</span>
+                <li class="">
+                    <a href="#top" onclick="updateView('secondView')">
+                        <span class="img">
+                            <span class="ico"></span>
+                            <span class="nstat">
+                                <span id="secondView" title="Просмотров">0</span>
+                            </span>
+                            <img class=" ls-is-cached lazyloaded" src="_img/2.jpg">
                         </span>
-                        <img class=" ls-is-cached lazyloaded" src="_img/2.jpg">
-                    </span>
-                    <span class="title">По факту ДТП, в котором легковушка врезалась в стоящий посреди трассы
-                        погрузчик под Щучином, возбуждено уголовное дело в отношении водителя Hyundai
-                    </span>
+                        <span class="title">По факту ДТП, в котором легковушка врезалась в стоящий посреди трассы
+                            погрузчик под Щучином, возбуждено уголовное дело в отношении водителя Hyundai
+                        </span>
                     </a>
                     <p>Следователи обращаются к возможным очевидцам аварии. Их, а также тех, кто непосредственно перед
                         аварией проезжал этот участок дороги, видел стоящий на обочине погрузчик.</p>
@@ -99,17 +100,18 @@
                     <p>За 2021 год на сайте интернет-магазина МТС было оформлено около 200 тысяч заказов. По сравнению с
                         2020 годом количество покупок выросло почти в 3 раза.</p>
                 </li>
-                <li class="#top" onclick="updateView('fiveView')">
-                    <span class="img">
-                        <span class="ico"></span>
-                        <span class="nstat">
-                            <span id="fiveView" title="Просмотров">0</span>
+                <li class="">
+                    <a href="#top" onclick="updateView('fiveView')">
+                        <span class="img">
+                            <span class="ico"></span>
+                            <span class="nstat">
+                                <span id="fiveView" title="Просмотров">0</span>
+                            </span>
+                            <img class=" ls-is-cached lazyloaded" src="_img/2.jpg">
                         </span>
-                        <img class=" ls-is-cached lazyloaded" src="_img/2.jpg">
-                    </span>
-                    <span class="title">По факту ДТП, в котором легковушка врезалась в стоящий посреди трассы
-                        погрузчик под Щучином, возбуждено уголовное дело в отношении водителя Hyundai
-                    </span>
+                        <span class="title">По факту ДТП, в котором легковушка врезалась в стоящий посреди трассы
+                            погрузчик под Щучином, возбуждено уголовное дело в отношении водителя Hyundai
+                        </span>
                     </a>
                     <p>Следователи обращаются к возможным очевидцам аварии. Их, а также тех, кто непосредственно перед
                         аварией проезжал этот участок дороги, видел стоящий на обочине погрузчик.</p>
@@ -131,13 +133,7 @@
             </ul>
 
         </div>
-        <script>
-            //подсчёт нажатий на новость
-            function updateView(id) {
-                const view = document.getElementById(id);
-                +(view.innerHTML)++
-            }
-        </script>
+
 
         <footer>
             <div class="place">
@@ -167,6 +163,8 @@
                 </ul>
             </div>
         </footer>
+
+
     </div>
 
 </body>

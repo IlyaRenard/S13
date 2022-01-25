@@ -1,7 +1,45 @@
+@font-face {
+    font-family: "helvetica-light";
+    font-display: swap;
+    src: url("fonts/helveticaneuecyr-light.eot");
+    src: url("fonts/helveticaneuecyr-light.eot?#iefix")format("embedded-opentype"), url("fonts/helveticaneuecyr-light.woff")format("woff"), url("/_css/font/helveticaneuecyr-light.ttf")format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "helvetica-bold";
+    font-display: swap;
+    src: url("fonts/helveticaneuecyr-bold.eot");
+    src: url("fonts/helveticaneuecyr-bold.eot?#iefix")format("embedded-opentype"), url("fonts/helveticaneuecyr-bold.woff")format("woff"), url("/_css/font/helveticaneuecyr-bold.ttf")format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: "helvetica-black";
+    font-display: swap;
+    src: url("fonts/helveticaneuecyr-black.eot");
+    src: url("fonts/helveticaneuecyr-black.eot?#iefix")format("embedded-opentype"), url("fonts/helveticaneuecyr-black.woff")format("woff"), url("/_css/font/helveticaneuecyr-black.ttf")format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal
+}
+
+ul.cols.news li a:hover img {
+    opacity: .7
+}
+
 html {
     width: 100%;
     height: 100%
 }
+
+
+
+
 
 svg,
 img,
@@ -39,6 +77,20 @@ ol {
     overflow: hidden;
     list-style-type: disc
 }
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+    font-family: "helvetica-light", Arial, Helvetica, sans-serif;
+    font-size: .8vw;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    position: relative;
+}
+
 
 ul li {
     padding: 0px;
@@ -220,7 +272,7 @@ header nav span.view {
     background-size: 1.5vw auto;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(/_img/view-table.svg)
+    background-image: url(img/view-table.svg)
 }
 
 header nav span.view.list {
@@ -239,7 +291,7 @@ header nav span.login {
     background-size: 1.5vw auto;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(/_img/login.svg)
+    background-image: url(img/login.svg)
 }
 
 header nav span.login:hover {
@@ -262,7 +314,7 @@ header nav span.search {
     background-size: 1.5vw auto;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(/_img/search.svg)
+    background-image: url(img/search.svg)
 }
 
 a:hover,

@@ -28,15 +28,14 @@
     font-stretch: normal
 }
 
-ul.cols.news li a:hover img {
+/* ul.cols.news li a:hover img {
     opacity: .7
-}
+} */
 
 html {
     width: 100%;
     height: 100%
 }
-
 
 
 
@@ -276,7 +275,7 @@ header nav span.view {
 }
 
 header nav span.view.list {
-    background-image: url(/_img/view-list.svg)
+    background-image: url(/img/view-list.svg)
 }
 
 header nav span.login {
@@ -331,9 +330,9 @@ div.place a.logo:hover img {
     opacity: .5
 }
 
-header nav span.view:hover {
+/* header nav span.view:hover {
     background-color: rgba(255, 255, 255, .2)
-}
+} */
 
 header nav span.search:hover {
     background-color: rgba(255, 255, 255, .2)
@@ -366,7 +365,7 @@ span.nstat span {
 }
 
 span.ico {
-    position: relative;
+    position: absolute;
     top: -.1vw;
     white-space: nowrap
 }
@@ -391,7 +390,8 @@ ul.cols.news li img {
     width: 100%;
     height: auto;
     display: block;
-    transition: all .5s
+    transition: all .5s;
+    
 }
 
 ul.cols.news li a {
